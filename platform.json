@@ -22,7 +22,7 @@
       "framework-arduinoespressif8266": [
         {
           "url": "https://github.com/jeremypoulter/esp8266_core/archive/master.zip",
-          "version": "1.20500.0-dev",
+          "version": "1.20400.0-dev",
           "system": "*"
         }
       ]
@@ -46,7 +46,7 @@
     "framework-arduinoespressif8266": {
       "type": "framework",
       "optional": true,
-      "version": "1.20500.0-dev"
+      "version": "1.20400.0-dev"
     },
     "framework-simba": {
       "type": "framework",
