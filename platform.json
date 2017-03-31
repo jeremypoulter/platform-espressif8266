@@ -19,10 +19,10 @@
     "http://dl.platformio.org/packages/manifest.json",
     "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
     {
-      "framework-arduinoespressif8266-40mhz": [
+      "framework-arduinoespressif8266": [
         {
           "url": "https://github.com/jeremypoulter/esp8266_core/archive/master.zip",
-          "version": "1.20400.0-alpha.1",
+          "version": "1.20500.0-dev",
           "system": "*"
         }
       ]
@@ -30,7 +30,7 @@
   ],
   "frameworks": {
     "arduino": {
-      "package": "framework-arduinoespressif8266-40mhz",
+      "package": "framework-arduinoespressif8266",
       "script": "builder/frameworks/arduino.py"
     },
     "simba": {
@@ -43,10 +43,10 @@
       "type": "toolchain",
       "version": "~1.40802.0"
     },
-    "framework-arduinoespressif8266-40mhz": {
+    "framework-arduinoespressif8266": {
       "type": "framework",
       "optional": true,
-      "version": "1.20400.0-alpha.1"
+      "version": "1.20500.0-dev"
     },
     "framework-simba": {
       "type": "framework",
